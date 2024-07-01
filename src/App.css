@@ -56,6 +56,10 @@ h1,h2,h3,h4,h5,h6{
 #about {
   background-color: #404040;
 }
+#skills{
+  background-color: #000;
+
+}
 
 #sky {
   position: relative;
