@@ -5,21 +5,29 @@ const About = () => {
         <div className='container-fluid p-5'>
             <h1 className=''>Who am I ?</h1>
             <div className="row mt-4">
-                <div className="col-md-7">
-                    <h5 className="text-md">As a highly skilled and experienced mobile and web application developer with over 6 years in the industry, I specialize in React Native, React JS, TypeScript,Node JS and other bunch of JavaScript frameworks.</h5>
+                <div className="col-md-7 d-sm-block d-xs-block d-lg-none d-md-none">
+                    <div className="text-md">
+                        <h5>
+                            I'm a seasoned Full Stack Developer with 6.5 years of experience crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
+                        </h5>
+                        <br />
+                    </div>
+                </div>
+                <div className="col-md-7 d-none d-lg-block d-xl-block d-md-block">
+                    <h5 className="text-md">
+                        Hello! I'm a seasoned Full Stack Developer with 6.5 years of experience crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
+                    </h5>
                     <br />
                     <h5 className="text-md">
-                        With a proven track record of delivering high-quality applications that meet client expectations, I am passionate about developing user-friendly and efficient solutions that help businesses achieve their goals.
-                        Throughout my career, I have been involved in the development of numerous successful projects, from concept to deployment.
+                    Throughout my career, I have consistently delivered high-quality solutions, driving success for both startups and established enterprises. I am passionate about staying updated with the latest industry trends and continuously improving my skills.
+                    </h5>
+                    <br />
+                    <h5 className='text-md d-none d-lg-block d-xl-block d-md-none'>
+                    I thrive in collaborative environments and enjoy solving complex problems with innovative approaches. Whether it's building dynamic user interfaces or developing efficient server-side applications, I am committed to creating exceptional digital experiences.
                     </h5>
                     <br />
                     <h5 className='text-md'>
-                        I have a deep understanding of the software development life cycle and have honed my skills in project management, team collaboration, and problem-solving.
-                        As a developer, I am always eager to take on new challenges and push the boundaries of what's possible in application development.
-                    </h5>
-                    <br />
-                    <h5 className='text-md'>
-                        I am committed to staying up-to-date with the latest technologies and industry trends to ensure that my clients receive the best possible solutions for their needs.
+                    Let's connect and explore how we can work together to bring your vision to life!
                     </h5>
                 </div>
                 <div className="col-md-4">

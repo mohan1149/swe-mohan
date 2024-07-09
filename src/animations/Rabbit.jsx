@@ -108,21 +108,19 @@ const Rabbit = () => {
             { id: '#path5359', d: 'm 293.08697,96.431806 41.0776,9.739514 -12.97046,-43.6773 z' },
             { id: '#path5361', d: 'm 345.58697,65.003235 -11.4224,41.168085 -12.97046,-43.6773 z' },
         ];
-
         var timeline = anime.timeline({ autoplay: true, direction: 'alternate', loop: true });
-
         paths.forEach(function (path, index) {
             document.getElementById(path.id.substring(1)).style.fill = '#FFF';
-            timeline
-                .add({
-                    targets: path.id,
-                    d: {
-                        value: path.d,
-                        duration: 500,
-                        easing: 'easeInOutQuad'
-                    },
-                    offset: 1000 + 10 * index
-                });
+            // timeline
+            //     .add({
+            //         targets: path.id,
+            //         d: {
+            //             value: path.d,
+            //             duration: 500,
+            //             easing: 'easeInOutQuad'
+            //         },
+            //         offset: 1000 + 10 * index
+            //     });
         });
 
         timeline
@@ -138,9 +136,8 @@ const Rabbit = () => {
     }, []);
     return (
         <div>
-
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="10 50 700 600">
+            <div className='d-flex align-items-center'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="10 100 600 600">
                     <path id="path5419" d="m 627.55727,563.46269 -34.09265,-47.72968 39.14342,27.7792 z" />
                     <path id="path4232" d="m 602.30346,512.19745 -8.83884,3.53556 39.14342,27.7792 z" />
                     <path id="path4236" d="m 602.30346,512.19745 -8.83884,3.53556 -1.26268,-35.35533 z" />

@@ -36,11 +36,26 @@
     transform: rotate(360deg);
   }
 } */
-h1,h2,h3,h4,h5,h6,p,a,div,span,strong{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span,
+strong {
   font-family: "Poppins", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #FFF;
   padding: 0px !important;
   margin: 0px !important;
@@ -49,14 +64,17 @@ h1,h2,h3,h4,h5,h6{
 #intro {
   background-color: #000;
 }
-#intro-content{
+
+#intro-content {
   background-color: #000;
   height: 60vh;
 }
+
 #about {
   background-color: #404040;
 }
-#skills{
+
+#skills {
   background-color: #000;
 
 }
@@ -77,7 +95,7 @@ h1,h2,h3,h4,h5,h6{
   height: 50vw;
   /* position: fixed; */
   /* overflow: hidden; */
-  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%)) rotate(120deg);
+  transform: translatex(calc(20vw - 50%)) translatey(calc(20vh - 50%)) rotate(120deg);
 }
 
 .wish {
@@ -94,11 +112,96 @@ h1,h2,h3,h4,h5,h6{
   overflow: hidden;
   border-radius: 20px;
 }
-.anim, .anim svg {
+
+.anim,
+.anim svg {
   position: relative;
   width: 100%;
   height: 100%;
 }
+
 .anim path {
   stroke-width: 2;
 }
+
+.text-right {
+  text-align: right;
+}
+
+
+.wave-top {
+  width: 100%;
+}
+
+#projects {
+  background-color: #404040;
+}
+#clients{
+  background-color: #000;
+}
+
+.g-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(228, 228, 232, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+.d-flex.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tech-skills img{
+  background: #FFF;
+  /* padding: 3px */
+}
+
+@media (min-width: 992px) {
+  .px-lg-5,.py-lg-5{
+    padding: 4rem !important;
+  }
+}
+#path26{
+  fill: url(#radialGradient24);
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  /* fill: none !important; */
+}
+path{
+  fill:#FFF;stroke:#FFF;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;
+}
+path{
+  fill: #3f8dd3;
+}
+#path6910,#path6916,#path6914,#path6900,#path6918,#path6908,#path6906,#path6904,#path6902,#path6898,#path6912 {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+  fill: none !important;
+  stroke-width: 20px !important;
+}
+#path42{
+  fill: url(#radialGradient40);
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  /* stroke-width: 10; */
+  /* stroke-opacity: 0.5; */
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+/* style="fill:#;fill-opacity:1;fill-rule:nonzero;stroke:none" */
+
+/* 
+ */
+
+ /* style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" */

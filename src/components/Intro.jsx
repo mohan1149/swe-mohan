@@ -11,14 +11,14 @@ const Intro = () => {
         return Math.floor(Math.random() * Math.floor(viewPortHeight)).toString();
     }
     const randomRadius = () => {
-        return Math.random() * 0.7 + 1.3;
+        return Math.random() * 0.9 + 1.3;
     };
     const starryNight = () => {
         anime({
             targets: ["#sky .star"],
             opacity: [
                 {
-                    duration: 500,
+                    duration: 100,
                     value: "0"
                 },
                 {
@@ -58,7 +58,7 @@ const Intro = () => {
 
     useEffect(() => {
         starryNight();
-        shootingStars();
+       // shootingStars();
     }, []);
 
     return (
@@ -92,7 +92,7 @@ const Intro = () => {
                 >Hello, I'm Mohan.</h1>
                 <h2 className=''>Lets build something amazing..</h2>
             </div>
-            <div id="shootingstars">
+            {/* <div id="shootingstars">
                 {[...Array(150)].map((x, y) => (
                     <div
                         key={y}
@@ -104,7 +104,7 @@ const Intro = () => {
                     />
                 ))}
 
-            </div>
+            </div> */}
         </div>
     );
 }
