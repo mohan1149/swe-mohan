@@ -134,10 +134,11 @@ h6 {
 }
 
 #projects {
-  background-color: #404040;
-}
-#clients{
   background-color: #000;
+}
+
+#clients {
+  background-color: #404040;
 }
 
 .g-card {
@@ -149,41 +150,91 @@ h6 {
   padding: 1rem;
   margin: 1rem;
 }
-.d-flex.flex-wrap{
+
+.d-flex.flex-wrap {
   display: flex;
   flex-wrap: wrap;
 }
-.tech-skills img{
+
+.tech-skills img {
   background: #FFF;
-  /* padding: 3px */
+}
+
+.text-center{
+  text-align: center !important;
 }
 
 @media (min-width: 992px) {
-  .px-lg-5,.py-lg-5{
+
+  .px-lg-5,
+  .py-lg-5 {
     padding: 4rem !important;
   }
 }
-#path26{
-  fill: url(#radialGradient24);
+
+.g-card.services{
+  transition: all 0.3s ease-in-out;
+}
+.g-card.services:hover{
+  transform: scale(1.1);
+}
+.g-card.services h4{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+#path26 {
   fill-opacity: 1;
   fill-rule: nonzero;
   stroke: none;
-  /* fill: none !important; */
+  fill: #404040;
 }
-path{
-  fill:#FFF;stroke:#FFF;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;
+#footer{
+  background: #000;
 }
-path{
+#services{
+  background: #404040;
+}
+.footer-content path {
+  fill: #FFF;
+  stroke: #FFF;
+  stroke-width: 10;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  stroke-dasharray: none;
+  stroke-opacity: 1;
+}
+
+.footer-content path {
   fill: #3f8dd3;
 }
-#path6910,#path6916,#path6914,#path6900,#path6918,#path6908,#path6906,#path6904,#path6902,#path6898,#path6912 {
+
+#path6910,
+#path6916,
+#path6914,
+#path6900,
+#path6918,
+#path6908,
+#path6906,
+#path6904,
+#path6902,
+#path6898,
+#path6912 {
   stroke-dasharray: 100;
   stroke-dashoffset: 1000;
   animation: dash 5s linear alternate infinite;
   fill: none !important;
   stroke-width: 20px !important;
 }
-#path42{
+
+#path42 {
   fill: url(#radialGradient40);
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -195,13 +246,8 @@ path{
   from {
     stroke-dashoffset: 822;
   }
+
   to {
     stroke-dashoffset: 0;
   }
 }
-/* style="fill:#;fill-opacity:1;fill-rule:nonzero;stroke:none" */
-
-/* 
- */
-
- /* style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" */

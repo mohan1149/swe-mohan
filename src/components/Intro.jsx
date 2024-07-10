@@ -58,7 +58,7 @@ const Intro = () => {
 
     useEffect(() => {
         starryNight();
-       // shootingStars();
+        shootingStars();
     }, []);
 
     return (
@@ -80,14 +80,14 @@ const Intro = () => {
             <div className=""
                 style={{
                     position: 'absolute',
-                    width:'99vw',
-                    textAlign:'center',
-                    top:'10rem',
+                    width: '99vw',
+                    textAlign: 'center',
+                    top: '10rem',
                 }}
             >
                 <h1
                     style={{
-                        fontSize:'3rem'
+                        fontSize: '3rem'
                     }}
                 >Hello, I'm Mohan.</h1>
                 <h2 className=''>Lets build something amazing..</h2>

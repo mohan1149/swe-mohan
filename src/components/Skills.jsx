@@ -1,14 +1,6 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs';
 const Skills = () => {
-    useEffect(() => {
-        // anime({
-        //     targets: '.tech-skills > .el',
-        //     easing: 'easeInOutQuad',
-        //     scale: 2,
-        //     loop:true,
-        // });
-    });
     const skills = [
         {
             name: "JavaScript",
@@ -23,44 +15,49 @@ const Skills = () => {
             image: '/images/css.png'
         },
         {
-            name: "bootstrap",
+            name: "Bootstrap",
             image: '/images/bootstrap.png'
         },
         {
-            name: "react",
+            name: "jQuery",
+            image: '/images/jquery.png'
+        },
+
+        {
+            name: "React JS & React Native",
             image: '/images/react.png',
             padding: true,
         },
         {
-            name: "node",
+            name: "Node.JS",
             image: '/images/node.png'
         },
         {
-            name: "mui",
+            name: "Material UI",
             image: '/images/mui.jpg'
         },
         {
-            name: "tail",
+            name: "Tailwind CSS",
             image: '/images/tail.jpeg'
         },
         {
-            name: "vue",
+            name: "Vue.js",
             image: '/images/vue.png'
         },
         {
-            name: "typescript",
+            name: "Typescript",
             image: '/images/typescript.png'
         },
         {
-            name: "cypress",
+            name: "Cypress",
             image: '/images/cypress.jpeg'
         },
         {
-            name: "php",
+            name: "PHP",
             image: '/images/php.png'
         },
         {
-            name: "laravel",
+            name: "Laravel",
             image: '/images/laravel.jpg'
         },
         {
@@ -69,64 +66,62 @@ const Skills = () => {
             padding: true,
         },
         {
-            name: 'Linux',
+            name: 'Drupal CMS',
             image: '/images/drupal.png',
             padding: true,
         },
         {
-            name: 'mySQl',
+            name: 'MySQl',
             image: '/images/mysql.svg'
         },
         {
-            name: "android",
+            name: "Android Apps",
             image: '/images/android.png'
         },
         {
-            name: "ios",
-            image: '/images/ios.png'
+            name: "iOS Apps",
+            image: '/images/apple.png'
         },
-       
 
-      
         {
-            name: 'Linux',
+            name: 'Java Spring Boot',
             image: '/images/java.png',
             padding: true,
         },
         {
-            name: 'Linux',
+            name: 'Gitlab CI/CD',
             image: '/images/gitlab.png',
             padding: true,
         },
         {
-            name: 'Linux',
+            name: 'Github',
             image: '/images/github.png',
             padding: true,
         },
 
         {
-            name: 'Linux',
+            name: 'Docker Containerization',
             image: '/images/docker.png',
             padding: true,
         },
         {
-            name: 'Linux',
+            name: 'Nginx',
             image: '/images/nginx.png',
             padding: true,
         },
         {
-            name: 'Linux',
+            name: 'Google SEO',
             image: '/images/search.png',
             padding: true,
         },
         {
-            name: 'Linux',
+            name: 'AWS',
             image: '/images/web.png',
             padding: true,
         },
 
         {
-            name: 'Linux',
+            name: 'Anime JS',
             image: '/images/animejs.jpg',
         },
         {
@@ -134,9 +129,24 @@ const Skills = () => {
             image: '/images/firebase.webp',
         },
         {
-            name:"Lottie",
-            image:'/images/lottie.png'
-        }
+            name: "Lottie Animation",
+            image: '/images/lottie.png'
+        },
+        {
+            name: "RESTful APIS",
+            image: '/images/postman.png',
+            padding: true,
+        },
+        {
+            name: "Expo",
+            image: '/images/expo.png'
+        },
+        {
+            name: "Flutter",
+            image: '/images/flutter.png',
+            padding: true,
+        },
+
     ];
     return (
         <div className='container-fluid p-5'>
@@ -148,15 +158,17 @@ const Skills = () => {
                 </div>
                 <div className="col-md-12 col-lg-7 tech-skills mt-4 px-lg-5 py-lg-5"
                     style={{
-                        padding: '1rem',
-                        marginBottom: '2rem'
+                        padding: '0.1rem',
+                        marginBottom: '1rem',
+                        textAlign: 'center'
                     }}
                 >
                     {
                         skills.map((item, index) => {
                             return (
                                 <span key={index}>
-                                    <img className='m-2 el' src={item.image} alt="" width={70} height={70} 
+                                    <img className='m-2 el' src={item.image} alt={item.name} width={70} height={70}
+                                        title={item.name}
                                         style={{
                                             padding: item.padding ? '7px' : 'auto',
                                         }}
@@ -167,7 +179,27 @@ const Skills = () => {
                         })
                     }
                 </div>
+                <div className="col-12">
+                    <marquee behavior="scrolling">
+                        {
+                            skills.map((item, index) => {
+                                return (
+                                    <span key={index}>
+                                        <strong
+                                            className='mx-2'
+                                            style={{
+                                                color: '#FFF',
+                                                textDecoration:'underline'
+                                            }}
+                                        >{item.name}</strong>
 
+                                    </span>
+
+                                );
+                            })
+                        }
+                    </marquee>
+                </div>
             </div>
         </div>
     );

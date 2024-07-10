@@ -15,19 +15,19 @@ const About = () => {
                 </div>
                 <div className="col-md-7 d-none d-lg-block d-xl-block d-md-block">
                     <h5 className="text-md">
-                        Hello! I'm a seasoned Full Stack Developer with 6.5 years of experience crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
+                        I'm a seasoned Full Stack Developer with 6.5 years of experience crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
                     </h5>
                     <br />
                     <h5 className="text-md">
-                    Throughout my career, I have consistently delivered high-quality solutions, driving success for both startups and established enterprises. I am passionate about staying updated with the latest industry trends and continuously improving my skills.
+                        Throughout my career, I have consistently delivered high-quality solutions, driving success for both startups and established enterprises. I am passionate about staying updated with the latest industry trends and continuously improving my skills.
                     </h5>
                     <br />
                     <h5 className='text-md d-none d-lg-block d-xl-block d-md-none'>
-                    I thrive in collaborative environments and enjoy solving complex problems with innovative approaches. Whether it's building dynamic user interfaces or developing efficient server-side applications, I am committed to creating exceptional digital experiences.
+                        I thrive in collaborative environments and enjoy solving complex problems with innovative approaches. Whether it's building dynamic user interfaces or developing efficient server-side applications, I am committed to creating exceptional digital experiences.
                     </h5>
                     <br />
                     <h5 className='text-md'>
-                    Let's connect and explore how we can work together to bring your vision to life!
+                        Let's connect and explore how we can work together to bring your vision to life!
                     </h5>
                 </div>
                 <div className="col-md-4">
