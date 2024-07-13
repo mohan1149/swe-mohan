@@ -160,7 +160,7 @@ h6 {
   background: #FFF;
 }
 
-.text-center{
+.text-center {
   text-align: center !important;
 }
 
@@ -172,13 +172,15 @@ h6 {
   }
 }
 
-.g-card.services{
+.g-card.services {
   transition: all 0.3s ease-in-out;
 }
-.g-card.services:hover{
+
+.g-card.services:hover {
   transform: scale(1.1);
 }
-.g-card.services h4{
+
+.g-card.services h4 {
   text-align: center;
   font-weight: bold;
 }
@@ -195,12 +197,15 @@ h6 {
   stroke: none;
   fill: #404040;
 }
-#footer{
+
+#footer {
   background: #000;
 }
-#services{
+
+#services {
   background: #404040;
 }
+
 .footer-content path {
   fill: #FFF;
   stroke: #FFF;
@@ -215,6 +220,66 @@ h6 {
 .footer-content path {
   fill: #3f8dd3;
 }
+
+.p-timeline-event-separator {
+  background-color: #FFF;
+  width: 2px;
+}
+
+.expDate {
+  opacity: 0.6 !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.moving-ball {
+  height: 10px;
+  width: 10px;
+  background-color: #FFF;
+  display: inline-block;
+  animation: cubeRotate 1s linear alternate infinite;
+
+}
+
+.contact-links {
+  list-style: none;
+}.contact-links li{
+  margin: 10px;
+}
+
+.contact-links img {
+  width: 30px !important;
+}
+.contact-links a{
+  text-decoration: none;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+@keyframes cubeRotate {
+
+  from {
+    background-color: #FFF;
+  }
+
+  to {
+    background-color: #404040;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #path6910,
 #path6916,

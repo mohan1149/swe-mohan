@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Clients from './components/Clients';
+import Experience from './components/Experience';
 import Footer from './components/Footer';
 const App = () => {
   return (
@@ -25,8 +26,8 @@ const App = () => {
       <section id='projects'>
         <Projects />
       </section>
-      <section id='clients'>
-        <Clients />
+      <section id='experience'>
+        <Experience />
       </section>
       <section id='footer'>
         <Footer />
