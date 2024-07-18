@@ -1,7 +1,7 @@
 import anime from 'animejs';
 import React, { useEffect } from "react";
 const Intro = () => {
-    const stars = 150;
+    const stars = 250;
     const viewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     const viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     const getRandomX = () => {
@@ -62,8 +62,8 @@ const Intro = () => {
     }, []);
 
     return (
-        <div id="intro-content" className=''>
-            <svg id="sky">
+        <div id="intro-content" className='intro'>
+            {/* <svg id="sky">
                 {[...Array(stars)].map((x, y) => (
                     <circle
                         cx={getRandomX()}
@@ -76,13 +76,10 @@ const Intro = () => {
                         className="star"
                     />
                 ))}
-            </svg>
-            <div className=""
+            </svg> */}
+            <div
                 style={{
-                    position: 'absolute',
-                    width: '99vw',
-                    textAlign: 'center',
-                    top: '10rem',
+                    marginBottom:'8rem'
                 }}
             >
                 <h1
@@ -92,6 +89,7 @@ const Intro = () => {
                 >Hello, I'm Mohan.</h1>
                 <h2 className=''>Lets build something amazing..</h2>
             </div>
+            
             {/* <div id="shootingstars">
                 {[...Array(150)].map((x, y) => (
                     <div

@@ -49,7 +49,7 @@ const Services = () => {
                             <img src='/images/seo.png' width={'80rem'} />
                         </div>
                         <h4>SEO & Digital Marketing</h4>
-                        <h6 className='mt-2'>We are aimed to boost and promote your brand via different digital channels like social media networks, ad campaigns and emails.</h6>
+                        <h6 className='mt-2'>I'm aimed to boost and promote your brand via different digital channels like social media networks, ad campaigns and emails.</h6>
                     </div>
                 </div>
                 <div className="col-md-4">

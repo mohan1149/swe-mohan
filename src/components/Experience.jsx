@@ -10,7 +10,6 @@ const Experience = () => {
             date: 'Dec 2020',
             icon: 'pi pi-shopping-cart',
             color: '#9C27B0',
-            image: 'game-controller.jpg',
             text: 'Promoted as Lead SWE, architected,designed, developed and published several mobile and web applications. Build robust API services and gained expert level skills on SDLC and led teams, fostering collaboration and driving projects to successful completion.',
         },
         {
@@ -32,7 +31,7 @@ const Experience = () => {
             date: 'Mar 2018',
             icon: 'pi pi-check',
             color: '#607D8B',
-            text: "Completed Bachelor's Engineering  in Computer Science and Engineering with 7.75 CCPA"
+            text: "Completed Bachelor's of Engineering  in Computer Science and Engineering with 7.75 CCPA"
         }
     ];
     const customizedMarker = (item) => {
@@ -103,8 +102,13 @@ const Experience = () => {
         <div className="p-5" style={{
             backgroundColor: '#404040'
         }}>
-            <h1>Something more about me..</h1>
-            <Timeline value={events} align="alternate" className="customized-timeline" marker={customizedMarker} content={customizedContent} />
+            <h1>something more about me..</h1>
+            <Timeline
+                value={events}
+                align="alternate"
+                className="customized-timeline"
+                marker={customizedMarker}
+                content={customizedContent} />
         </div>
     )
 }

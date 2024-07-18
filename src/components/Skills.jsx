@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs';
+import Lottie from "lottie-react";
+import skillsData from "./lotties/skills.json";
+let animeInstance = null;
 const Skills = () => {
     const skills = [
         {
@@ -149,14 +152,32 @@ const Skills = () => {
 
     ];
     return (
-        <div className='container-fluid p-5'>
+        <div className='container-fluid p-5'
+        >
             <h1 className='text-center mt-3'>Technologies, I work with..</h1>
             <div className="row ">
                 <div className="col-md-5 d-none d-lg-block">
-                    <lottie-player src="/animations/skills.json" speed="1" loop="" autoplay="">
-                    </lottie-player>
+                    <Lottie
+                        animationData={skillsData}
+                        loop={true}
+                        autoplay={true}
+                    />
                 </div>
                 <div className="col-md-12 col-lg-7 tech-skills mt-4 px-lg-5 py-lg-5"
+                    // onMouseEnter={() => {
+                    //     animeInstance = anime({
+                    //         targets: '.tech-skills .el',
+                    //         translateX: anime.stagger(10, { grid: [8, 4], from: 'center', axis: 'x' }),
+                    //         translateY: anime.stagger([10, 45], { grid: [8, 4], from: 'center', axis: 'y' }),
+                    //         rotateZ: anime.stagger([0, 360], { grid: [8, 4], from: 'center', axis: 'x' }),
+                    //         delay: anime.stagger(200, { grid: [8, 4], from: 'center' }),
+                    //         easing: 'easeInOutQuad'
+                    //     });
+                    // }}
+                    // onMouseLeave={() => {
+                    //     animeInstance.reset();
+                    // }}
+
                     style={{
                         padding: '0.1rem',
                         marginBottom: '1rem',
@@ -189,7 +210,7 @@ const Skills = () => {
                                             className='mx-2'
                                             style={{
                                                 color: '#FFF',
-                                                textDecoration:'underline'
+                                                textDecoration: 'underline'
                                             }}
                                         >{item.name}</strong>
 
