@@ -24,7 +24,7 @@ const FAQ = () => {
         let command = argsIndex !== -1 ? text.substring(0, argsIndex) : text;
         switch (command) {
             case 'services':
-                response = "I offer full-stack web development services, including frontend and backend development, API integration, and mobile app development. I specialize in technologies such as React, Node.js, Express.js, and more";
+                response = "I offer full-stack web development services, including frontend and backend development, API integration, and mobile app development. I specialize in technologies such as React, Node.js, Express.js, and more..";
                 break;
             case 'skills':
                 response = "I have over 6.5 years of experience in React, Vue, React Native, HTML, CSS, PHP, Laravel, Drupal, Spring Boot, Nginx, Linux, GIT, Docker and more..";
@@ -57,7 +57,7 @@ const FAQ = () => {
                 response = 'Today is ' + new Date().toDateString();
                 break;
             case 'hi':
-                response = 'Hola';
+                response = 'Hello, ';
                 break;
             case 'random':
                 response = Math.floor(Math.random() * 100);

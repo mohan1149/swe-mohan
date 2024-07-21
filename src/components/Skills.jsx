@@ -149,6 +149,30 @@ const Skills = () => {
             image: '/images/flutter.png',
             padding: true,
         },
+        {
+            name: 'Test Driven Development',
+            hide: true,
+        },
+        {
+            name: 'Agile Development',
+            hide: true,
+        },
+        {
+            name: 'Solution Architecting',
+            hide: true,
+        },
+        {
+            name: 'Google Play & App Store Publishing',
+            hide: true,
+        },
+        {
+            name: 'Code Push',
+            hide: true,
+        },
+        {
+            name: 'DevOps',
+            hide: true,
+        }
 
     ];
     return (
@@ -186,17 +210,19 @@ const Skills = () => {
                 >
                     {
                         skills.map((item, index) => {
-                            return (
-                                <span key={index}>
-                                    <img className='m-2 el' src={item.image} alt={item.name} width={70} height={70}
-                                        title={item.name}
-                                        style={{
-                                            padding: item.padding ? '7px' : 'auto',
-                                        }}
-                                    />
-                                </span>
+                            if (!item.hide) {
+                                return (
+                                    <span key={index}>
+                                        <img className='m-2 el' src={item.image} alt={item.name} width={70} height={70}
+                                            title={item.name}
+                                            style={{
+                                                padding: item.padding ? '7px' : 'auto',
+                                            }}
+                                        />
+                                    </span>
+                                );
+                            }
 
-                            );
                         })
                     }
                 </div>

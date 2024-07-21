@@ -8,14 +8,14 @@ const About = () => {
                 <div className="col-md-7 d-sm-block d-xs-block d-lg-none d-md-none">
                     <div className="text-md">
                         <h5>
-                            I'm a seasoned Full Stack Developer with 6.5 years of experience crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
+                            I'm a seasoned Full Stack Developer with 6.5 years of experience in crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
                         </h5>
                         <br />
                     </div>
                 </div>
                 <div className="col-md-7 d-none d-lg-block d-xl-block d-md-block">
                     <h5 className="text-md">
-                        I'm a seasoned Full Stack Developer with 6.5 years of experience crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
+                        I'm a seasoned Full Stack Developer with 6.5 years of experience in  crafting robust and scalable web applications. My expertise spans a wide range of technologies, including React JS, React Native, Redux, HTML 5, CSS, jQuery, Bootstrap, Node.js, Express.js, Next.js, PHP, Laravel, Nginx, and Git.
                     </h5>
                     <br />
                     <h5 className="text-md">
