@@ -26,7 +26,7 @@ const App = () => {
       <section id='projects'>
         <Projects />
       </section>
-      <section id='experience'>
+      <section id='experience' className='d-none d-lg-block'>
         <Experience />
       </section>
       <section id='footer'>

@@ -16,7 +16,7 @@ const Footer = () => {
 
                 }}
             >
-                <h1 className='pt-5'>you can find me at..</h1>
+                <h1 className='pt-5 mb-5'>you can find me at..</h1>
                 <div className="row">
                     <div className="col-md-6 d-none d-lg-block">
                         <Lottie

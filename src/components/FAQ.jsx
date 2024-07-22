@@ -91,7 +91,7 @@ const FAQ = () => {
 
             <Terminal
                 welcomeMessage="have something to ask ?"
-                prompt="swe-mohan $"
+                prompt="$"
                 pt={{
                     root: 'bg-gray-900 text-white border-round',
                     prompt: 'text-gray-400 mr-2',

@@ -99,14 +99,14 @@ const Experience = () => {
         );
     };
     return (
-        <div className="p-5" style={{
+        <div className="pt-5 pb-5" style={{
             backgroundColor: '#404040'
         }}>
-            <h1>something more about me..</h1>
+            <h1 className='mx-5 mb-2'>something more about me..</h1>
             <Timeline
                 value={events}
                 align="alternate"
-                className="customized-timeline"
+                className="customized-timeline px-5"
                 marker={customizedMarker}
                 content={customizedContent} />
         </div>

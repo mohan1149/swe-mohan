@@ -41,7 +41,7 @@ const Projects = () => {
             'title': 'Bliss Q8',
             'type': 'Web Application(E-Commerce)',
             'size': 'col-md-4',
-            'description': 'A robust e-commerce application dedicated to selling organic beauty products for face and body. This platform provides an engaging and seamless shopping experience, promoting natural and eco-friendly skincare and cosmetic products',
+            'description': 'A robust e-commerce application dedicated to selling organic beauty products for face and body. This platform provides an engaging and seamless shopping experience, promoting natural and eco-friendly skincare and cosmetic products.',
             'images': [],
         },
         {
@@ -55,7 +55,7 @@ const Projects = () => {
             'title': 'Mishari Hajj',
             'type': 'Web Application',
             'size': 'col-md-4',
-            'description': 'A web application designed to streamline the operations of travel agencies. This application assists travel agencies in managing their customers, utilities, expenses, and trips, providing a centralized platform for efficient and organized operations',
+            'description': 'A web application designed to streamline the operations of travel agencies. This application assists travel agencies in managing their customers, utilities, expenses, and trips, providing a centralized platform for efficient and organized operations.',
             'images': [],
         },
         
@@ -63,14 +63,14 @@ const Projects = () => {
             'title': 'Baladiya VMS',
             'type': 'Web Application',
             'size': 'col-md-4',
-            'description': 'The complte web application to manage companies, issue warnings and violations, and streamline workflow processes. This platform provides a centralized system to ensure regulatory compliance, enhance transparency, and improve operational efficiency.',
+            'description': 'A complete web application to manage companies, issue warnings and violations, and streamline workflow processes. This platform provides a centralized system to ensure regulatory compliance, enhance transparency, and improve operational efficiency.',
             'images': [],
         },
         
     ];
     return (
-        <div className='p-5'>
-            <h1 className='mb-3'>projects I have completed...</h1>
+        <div className='pb-5'>
+            <h1 className='pt-5 px-4 mb-5'>projects I have completed...</h1>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
             >

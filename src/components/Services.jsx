@@ -2,10 +2,10 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className='p-5'>
-            <h1 className='mb-3'>I can help you in...</h1>
-            <div className="row">
-                <div className="col-md-4">
+        <div className='container-fluid pb-5'>
+            <h1 className='mb-3 pt-5 px-5'>I can help you in...</h1>
+            <div className="row px-3">
+                <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className='text-center p-2'>
                             <img src='/images/www.png' width={'80rem'} />
@@ -16,7 +16,7 @@ const Services = () => {
                 </div>
 
 
-                <div className="col-md-4">
+                <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className="text-center p-2">
                             <img src='/images/mobile.png' width={'80rem'} />
@@ -25,7 +25,7 @@ const Services = () => {
                         <h6 className='mt-2'>I build iOS and Android mobile appliactions with Hybrid Techologies like React Native, Flutter for all kinds of your businesses.</h6>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className="text-center p-2">
                             <img src='/images/cart.png' width={'80rem'} />
@@ -34,7 +34,7 @@ const Services = () => {
                         <h6 className='mt-2'>I will make fully responsive and mobile friendly E-Commerce applications which will make you to reach all of your coustomers.</h6>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className="text-center p-2">
                             <img src='/images/api.png' width={'80rem'} />
@@ -43,7 +43,7 @@ const Services = () => {
                         <h6 className='mt-2'>I will develop robust and scalable RESTful APIs using Node.js and Express.js, ensuring efficient and secure data handling.</h6>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className="text-center p-2">
                             <img src='/images/seo.png' width={'80rem'} />
@@ -52,7 +52,7 @@ const Services = () => {
                         <h6 className='mt-2'>I'm aimed to boost and promote your brand via different digital channels like social media networks, ad campaigns and emails.</h6>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className="text-center p-2">
                             <img src='/images/maintenance.png' width={'80rem'} />

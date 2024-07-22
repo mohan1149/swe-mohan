@@ -79,17 +79,18 @@ const Intro = () => {
             </svg> */}
             <div
                 style={{
-                    marginBottom:'8rem'
+                    marginBottom: '8rem'
                 }}
             >
                 <h1
+                    className='mx-'
                     style={{
                         fontSize: '3rem'
                     }}
-                >Hello, I'm Mohan.</h1>
-                <h2 className=''>Lets build something amazing..</h2>
+                >Hello, I'm Mohan,</h1>
+                <h2 className='mx-3'>Lets connect and build..</h2>
             </div>
-            
+
             {/* <div id="shootingstars">
                 {[...Array(150)].map((x, y) => (
                     <div
