@@ -93,8 +93,8 @@ const Experience = () => {
                 <h6
                     className='expDate'
                 >{item.date}</h6>
-                <h5
-                >{item.text}</h5>
+                <h6
+                >{item.text}</h6>
             </div>
         );
     };

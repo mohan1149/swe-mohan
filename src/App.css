@@ -46,10 +46,13 @@ h6 {
 
 #about {
   background-color: #404040;
+  border-right: 5px solid #FFF;
 }
 
 #skills {
   background-color: #000;
+  border-left: 5px solid #FFF;
+
 
 }
 
@@ -109,6 +112,8 @@ h6 {
 
 #projects {
   background-color: #000;
+  border-left: 5px solid #FFF;
+
 }
 
 #clients {
@@ -166,10 +171,6 @@ h6 {
 }
 
 
-
-
-
-
 #path26 {
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -183,6 +184,12 @@ h6 {
 
 #services {
   background: #404040;
+  border-right: 5px solid #FFF;
+
+}
+#experience{
+  border-right: 5px solid #FFF;
+
 }
 
 .footer-content path {
@@ -261,3 +268,16 @@ h6 {
   }
 }
 
+#intro-content ul {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+#intro-content ul li{
+  margin: 2px;
+}
+
+#intro-content ul li a{
+  box-shadow: 0 8px 32px 0 rgba(228, 228, 232, 0.37);
+}

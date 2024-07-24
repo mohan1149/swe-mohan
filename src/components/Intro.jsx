@@ -63,6 +63,44 @@ const Intro = () => {
 
     return (
         <div id="intro-content" className='intro'>
+            <ul className='contact-links'>
+                <li>
+                    <span>
+
+                        <a href="mailto:mohan.velegacherla@gmail.com">  <img src="/images/email.png" alt="" /></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+
+                        <a href="http://web.whatsapp.com/send/?phone=918074966828&text=Hello" target="_blank" rel="noopener noreferrer"><img src="/images/whatsapp.png" alt="" /></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+
+                        <a href="https://github.com/mohan1149" target="_blank" rel="noopener noreferrer"> <img src="/images/git.png" alt="" /></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+
+                        <a href="https://medium.com/@mohan.velegacherla" target="_blank" rel="noopener noreferrer"> <img src="/images/medium.png" alt="" /></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+
+                        <a href="https://www.linkedin.com/in/mohan-velegacherla-820aab1a2/" target="_blank" rel="noopener noreferrer"> <img src="/images/linkedin.png" alt="" /></a>
+                    </span>
+                </li>
+                <li>
+                    <span>
+
+                        <a href="https://www.xing.com/profile/Mohan_Velegacherla" target="_blank" rel="noopener noreferrer"> <img src="/images/xing.png" alt="" /></a>
+                    </span>
+                </li>
+            </ul>
             {/* <svg id="sky">
                 {[...Array(stars)].map((x, y) => (
                     <circle

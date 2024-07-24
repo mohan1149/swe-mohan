@@ -69,8 +69,9 @@ const Projects = () => {
         
     ];
     return (
-        <div className='pb-5'>
-            <h1 className='pt-5 px-4 mb-5'>projects I have completed...</h1>
+        <div className=''>
+            <h1 className='pt-5 px-5'>projects I have completed...</h1>
+            <div className='p-2 p-md-3 p-lg-5'>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
             >
@@ -84,6 +85,8 @@ const Projects = () => {
                     }
                 </Masonry>
             </ResponsiveMasonry>
+            </div>
+          
         </div>
     );
 }

@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div className='container-fluid pb-5'>
             <h1 className='mb-3 pt-5 px-5'>I can help you in...</h1>
-            <div className="row px-3">
+            <div className="row p-2 p-md-3 p-lg-5">
                 <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className='text-center p-2'>
@@ -14,8 +14,6 @@ const Services = () => {
                         <h6 className='mt-2'>I design and develop Web Appliactions, PWAs, and SPAs with cutting edge web technologies like React JS, CSS3, Material UI and Bootstrap.</h6>
                     </div>
                 </div>
-
-
                 <div className="col-md-4 p-0">
                     <div className="g-card services">
                         <div className="text-center p-2">

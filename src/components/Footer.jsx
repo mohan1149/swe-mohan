@@ -16,7 +16,7 @@ const Footer = () => {
 
                 }}
             >
-                <h1 className='pt-5 mb-5'>you can find me at..</h1>
+                <h1 className='pt-5'>you can find me at..</h1>
                 <div className="row">
                     <div className="col-md-6 d-none d-lg-block">
                         <Lottie
@@ -27,7 +27,7 @@ const Footer = () => {
                         />
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 p-5">
                         <h5>
                             <p>
                                 I'm always excited to connect with new people, collaborate on projects, and discuss innovative ideas. Whether you have a question, a business proposal, or just want to say hello, feel free to reach out.
