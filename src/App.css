@@ -281,3 +281,6 @@ h6 {
 #intro-content ul li a{
   box-shadow: 0 8px 32px 0 rgba(228, 228, 232, 0.37);
 }
+.text-bold{
+  font-weight: bold;
+}

@@ -2,14 +2,14 @@ import React from 'react';
 import { useEffect } from 'react';
 import anime from 'animejs';
 const Rabbit = () => {
-    // const getRandomColor = () => {
-    //     const letters = '0123456789ABCDEF';
-    //     let color = '#';
-    //     for (let i = 0; i < 6; i++) {
-    //         color += letters[Math.floor(Math.random() * 16)];
-    //     }
-    //     return color;
-    // };
+    const getRandomColor = () => {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    };
     useEffect(() => {
         var paths = [
             { id: '#path5419', d: 'm 574.27172,479 0,-15.65736 -32.82996,4.54569 z' },
@@ -110,17 +110,17 @@ const Rabbit = () => {
         ];
         var timeline = anime.timeline({ autoplay: true, direction: 'alternate', loop: true });
         paths.forEach(function (path, index) {
-            document.getElementById(path.id.substring(1)).style.fill = '#FFF';
-            // timeline
-            //     .add({
-            //         targets: path.id,
-            //         d: {
-            //             value: path.d,
-            //             duration: 500,
-            //             easing: 'easeInOutQuad'
-            //         },
-            //         offset: 1000 + 10 * index
-            //     });
+            document.getElementById(path.id.substring(1)).style.fill = getRandomColor().toString();
+            timeline
+                .add({
+                    targets: path.id,
+                    d: {
+                        value: path.d,
+                        duration: 500,
+                        easing: 'easeInOutQuad'
+                    },
+                    offset: 1000 + 10 * index
+                });
         });
 
         timeline

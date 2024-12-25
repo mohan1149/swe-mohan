@@ -44,33 +44,34 @@ const Projects = () => {
             'description': 'A robust e-commerce application dedicated to selling organic beauty products for face and body. This platform provides an engaging and seamless shopping experience, promoting natural and eco-friendly skincare and cosmetic products.',
             'images': [],
         },
-        {
-            'title': 'Ooredoo DLMS',
-            'type': 'Web & Mobile Applications',
-            'size': 'col-md-4',
-            'description': 'An integrated web and mobile application designed to manage delivery orders, inventory, and driver tracking. This solution provides a comprehensive platform for businesses to streamline their delivery operations, ensuring efficient order management, accurate inventory tracking, and real-time driver monitoring.',
-            'images': [],
-        },
-        {
-            'title': 'Mishari Hajj',
-            'type': 'Web Application',
-            'size': 'col-md-4',
-            'description': 'A web application designed to streamline the operations of travel agencies. This application assists travel agencies in managing their customers, utilities, expenses, and trips, providing a centralized platform for efficient and organized operations.',
-            'images': [],
-        },
+        // {
+        //     'title': 'Ooredoo DLMS',
+        //     'type': 'Web & Mobile Applications',
+        //     'size': 'col-md-4',
+        //     'description': 'An integrated web and mobile application designed to manage delivery orders, inventory, and driver tracking. This solution provides a comprehensive platform for businesses to streamline their delivery operations, ensuring efficient order management, accurate inventory tracking, and real-time driver monitoring.',
+        //     'images': [],
+        // },
+        // {
+        //     'title': 'Mishari Hajj',
+        //     'type': 'Web Application',
+        //     'size': 'col-md-4',
+        //     'description': 'A web application designed to streamline the operations of travel agencies. This application assists travel agencies in managing their customers, utilities, expenses, and trips, providing a centralized platform for efficient and organized operations.',
+        //     'images': [],
+        // },
         
-        {
-            'title': 'Baladiya VMS',
-            'type': 'Web Application',
-            'size': 'col-md-4',
-            'description': 'A complete web application to manage companies, issue warnings and violations, and streamline workflow processes. This platform provides a centralized system to ensure regulatory compliance, enhance transparency, and improve operational efficiency.',
-            'images': [],
-        },
+        // {
+        //     'title': 'Baladiya VMS',
+        //     'type': 'Web Application',
+        //     'size': 'col-md-4',
+        //     'description': 'A complete web application to manage companies, issue warnings and violations, and streamline workflow processes. This platform provides a centralized system to ensure regulatory compliance, enhance transparency, and improve operational efficiency.',
+        //     'images': [],
+        // },
         
     ];
     return (
         <div className=''>
             <h1 className='pt-5 px-5'>projects I have completed...</h1>
+            <h6 className='px-5 pt-4'>it's a big list,but some for your attention.</h6>
             <div className='p-2 p-md-3 p-lg-5'>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
