@@ -63,7 +63,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ height: '500px', margin: '50px' }}>
+            <div style={{ height: '500px', margin: '50px' }} className='d-none d-lg-block'>
                 <ArcherContainer strokeColor="red">
                     <div style={rootStyle}>
                         <ArcherElement

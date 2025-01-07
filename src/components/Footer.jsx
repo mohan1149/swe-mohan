@@ -87,6 +87,7 @@ const Footer = () => {
             <div className="terminal">
                 <FAQ/>
             </div>
+            <p>[![](https://visitcount.itsvg.in/api?id=mohan1149&icon=0&color=0)](https://visitcount.itsvg.in)</p>
         </div>
         // <div className='container-fluid p-0 m-0'>
         //     <div className="row container-fluid m-0 p-0">
